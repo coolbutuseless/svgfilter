@@ -1,0 +1,12 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="example-drop" x="-20%" y="-20%" width="140%" height="150%">
+      <feOffset in="SourceAlpha" dx="10" dy="10" result="offset_output" />
+      <feGaussianBlur in="offset_output" stdDeviation="3" result="blur_output" />
+      <feFlood flood-color="#bbb" result="flood_image" />
+      <feComposite in="flood_image" in2="blur_output" operator="in" result="composite_output" />
+      <feBlend in="SourceGraphic" in2="composite_output" mode="normal" />
+    </filter>
+  </defs>
+  <circle id="my circle" fill="#002366" filter="url('#example-drop')" cx="100" cy="100" r="50" />
+</svg>
