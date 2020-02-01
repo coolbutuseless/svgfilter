@@ -6,3 +6,4 @@
 *.txt
 inst/doc
 anim.svg
+pkgdown

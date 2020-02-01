@@ -40,7 +40,9 @@ set.seed(1)
 
 `svgfilter` provides some basic SVG filters.
 
-For online documentation, see the [svgfilter pkgdown website](https://coolbutuseless.github.io/package/svgfilter/index.html).
+Because github sanitises SVG to remove some elements of style, scripting and animation,
+please see the [svgfilter pkgdown website](https://coolbutuseless.github.io/package/svgfilter/index.html)
+to view the animations.
 
 Creating interesting filters is a bit of an art-form, so this package provides
 a few simple filters to show how they operate.
