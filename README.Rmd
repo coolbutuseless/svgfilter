@@ -299,13 +299,6 @@ logo$append(hex)
 logo$save("man/figures/logo.svg")
 ```
 
-```{r echo = FALSE}
-if (interactive()) {
-  logo$show()
-} 
-# logo$save_full_svg("man/figures/logo.svg", height=100, include_declaration = FALSE)
-```
-
 
 
 ```{r echo=FALSE, results='asis'}
